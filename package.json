@@ -1,0 +1,24 @@
+{
+    "name": "cloner-cli",
+    "version": "0.1.0",
+    "description": "Command line for clonning micro services into a project.",
+    "main": "index.js",
+    "preferGlobal": true,
+    "bin": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/alisoncassis/cloner-cli.git"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node index.js"
+    },
+    "author": "Alison Cassis",
+    "license": "ISC",
+    "dependencies": {
+        "commander": "^2.11.0",
+        "git-clone": "^0.1.0",
+        "inquirer": "^4.0.0",
+        "shelljs": "^0.7.8"
+    }
+}
