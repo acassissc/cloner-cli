@@ -5,7 +5,7 @@ const program = require('commander')
 const shell = require('shelljs')
 const clone = require('git-clone')
 
-const { prompt } = require('inquirer')
+// const { prompt } = require('inquirer')
 
 // const questions = [
 //   {
